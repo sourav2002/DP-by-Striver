@@ -1,4 +1,3 @@
-import java.util.concurrent.TimeUnit;
 
 /*
  * Given a number of stairs and a frog, the frog wants to climb 
