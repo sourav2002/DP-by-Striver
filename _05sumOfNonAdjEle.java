@@ -30,8 +30,8 @@ public class _05sumOfNonAdjEle {
         if(i == 0) return list.get(0);
         if(i < 0) return 0;
         if(dp[i] != 0) return dp[i];
-        int pick = list.get(i) + solveRec(list, i-2);
-        int nonpick = 0 + solveRec(list, i -1);
+        int pick = list.get(i) + solveMemo(list, i-2, dp);
+        int nonpick = 0 + solveMemo(list, i -1, dp);
         return dp[i] = Math.max(pick, nonpick);
     }
 
