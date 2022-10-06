@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class _25longestCommonSubsequence {
     public static void main(String[] args) {
         String s = "adebc";
