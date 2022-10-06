@@ -17,3 +17,7 @@ Recursion -> memoization -> tabulation -> space optimization
     3) Take the maximum/minmum of all choices (according to question)
 
 **If you are doing recursion step from 0th index to n-1th index, Tabulation will always be its opposite.**
+
+unknown error while using general tabulation approach so use **shifting of index** technique
+where i means index[i-1] to tackle ```if(i < 0 )``` testcase of recursion
+because we can't store negative index in dp as dp[-1].
