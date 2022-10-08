@@ -6,7 +6,6 @@ public class _26printLongestCommonSubseq {
         int m = t.length();
 
         int[][] dp = new int[m+1][m+1];
-        for(int j=0; j<=m; j++) dp[0][j] = 0;
 
         for (int i=1; i<=n; i++){
             for (int j=1; j<=m; j++){
