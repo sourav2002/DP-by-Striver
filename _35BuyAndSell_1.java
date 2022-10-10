@@ -25,6 +25,7 @@ public class _35BuyAndSell_1 {
         if (index == prices.length)
             return 0;
 
+<<<<<<< HEAD
 //        int mini = Math.min(min, prices[index]);
 //        int maxProfit = solve(prices, index + 1, mini);
 //        maxProfit = Math.max(maxProfit, prices[index] - min);
@@ -32,6 +33,12 @@ public class _35BuyAndSell_1 {
 //        return Math.max(solve(prices, index+1, mini), prices[index] - min);
         return Math.max(solve(prices, index+1, Math.min(min, prices[index])), prices[index] - min);
 
+=======
+        int mini = Math.min(min, prices[index]);
+        int maxProfit = solve(prices, index + 1, mini);
+        maxProfit = Math.max(maxProfit, prices[index] - min);
+        return maxProfit;
+>>>>>>> origin/master
     }
 
     public static int tabu(int[] arr, int n){
