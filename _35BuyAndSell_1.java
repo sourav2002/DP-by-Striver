@@ -30,7 +30,7 @@ public class _35BuyAndSell_1 {
 //        maxProfit = Math.max(maxProfit, prices[index] - min);
 //        return maxProfit;
 //        return Math.max(solve(prices, index+1, mini), prices[index] - min);
-        return Math.max(solve(prices, index+1, Math.min(min, prices[index])), prices[index] - min);
+        return Math.max(solve(prices, index+1, Math.min(min, prices[index]) ), prices[index] - min);
 //
 //        int mini = Math.min(min, prices[index]);
 //        int maxProfit = solve(prices, index + 1, mini);
