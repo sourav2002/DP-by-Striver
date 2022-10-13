@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class _41LongestIncreasingSubsequence {
     public static void main(String[] args) {
-        int arr[] = {0,1,0,3,2,3};
+        int[] arr = {0,1,0,3,2,3};
         int n = arr.length;
         int[][] dp = new int[n][n];
         for(int[] a : dp) Arrays.fill(a, -1);
