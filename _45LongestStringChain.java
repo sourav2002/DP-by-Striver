@@ -42,8 +42,7 @@ public class _45LongestStringChain {
                 i++;
             }
         }
-        if(j == b.length()) return true;
-        return false;
+        return j == b.length();
     }
 
 
@@ -58,7 +57,7 @@ public class _45LongestStringChain {
                 best = Math.max(best, dp.getOrDefault(prev, 0) + 1);
             }
             dp.put(word, best);
-             System.out.println("after some update"+ dp);
+//             System.out.println("after some update"+ dp);
             res = Math.max(res, best);
         }
         return res;

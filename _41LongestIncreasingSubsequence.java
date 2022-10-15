@@ -22,6 +22,7 @@ public class _41LongestIncreasingSubsequence {
         if (prev == -1 || arr[i] > arr[prev]) {
             take = 1 + solve(arr, i + 1, i, dp);
         }
+
         return dp[i][prev+1] =  Math.max(take, not);
     }
 
