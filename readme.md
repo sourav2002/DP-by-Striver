@@ -15,6 +15,10 @@ Recursion -> memoization -> tabulation -> space optimization
     1) Express the problem in terms of indexes.
     2) Try out all possible choices at a given index.
     3) Take the maximum/minmum of all choices (according to question)
+### tabulation -
+    1. copy the base case of recursion
+    2. for loops for changing states 
+    3. copy the recursion
 
 **If you are doing recursion step from 0th index to n-1th index, Tabulation will always be its opposite.**
 
